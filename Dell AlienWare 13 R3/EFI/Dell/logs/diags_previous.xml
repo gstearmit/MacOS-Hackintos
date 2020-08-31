@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>12</LogNumber>
+    <LogTimeStamp>05/07/2019 20:23:23</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Pass</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <DevicesTested>Memory, Hard Drive</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>05/07/2019 20:23:04</ePSALogTimeStamp>
+        <ePSAVersion>4304.32</ePSAVersion>
+        <ErrorCode>2000:0000</ErrorCode>
+        <ValidationCode>78939</ValidationCode>
+        <ErrorMessage><![CDATA[ePSA quick test pass]]></ErrorMessage>
+      </LogData>
+      <MemRxHealed>FALSE</MemRxHealed>
+      <ePSAInfo><![CDATA[serviceTag=51GT2H2&errCode=0000&ValCode=78939&uID=0DC9C]]></ePSAInfo>
+      <ePSAFullVersion>4304.32</ePSAFullVersion>
+      <ePSAInvocationCount>6</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>OS_BOOT_FAILURE</ErrorCategory>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+      <OSBootFailCount>2</OSBootFailCount>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
